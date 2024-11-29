@@ -1,0 +1,5 @@
+flask
+mistralai
+faiss-cpu
+numpy
+python-docx
