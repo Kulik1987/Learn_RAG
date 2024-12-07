@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 # Настройки
 API_KEY = "5pUn3Wl6HB8kbqKq6Cgyrmt6DlnJ74xF"
-INDEX_FILE = "vector_index6.faiss"
-CHUNKS_FILE = "chunks6.pkl"
+INDEX_FILE = "vector_index7.faiss"
+CHUNKS_FILE = "chunks7.pkl"
 EMBEDDING_CACHE_FILE = "embedding_cache.pkl"
 
 # Глобальный массив для хранения сообщений
