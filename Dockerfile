@@ -13,7 +13,7 @@ COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Копируем все файлы в контейнер
-COPY rag_service .
+COPY .. .
 
 # Указываем рабочую директорию
 WORKDIR /
