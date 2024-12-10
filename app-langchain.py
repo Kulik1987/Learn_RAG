@@ -100,7 +100,7 @@ def query():
         return jsonify({"error": "Question not provided."}), 400
 
     retriever = vector_store.as_retriever()
-    retrieved_docs = retriever.invoke(question, k=2)
+    retrieved_docs = retriever.invoke(question, k=2) # Извлекаем 2 документа
 
     # Ограничиваем объем текста в контексте
     max_context_length = 4000  # Максимум 4000 символов
